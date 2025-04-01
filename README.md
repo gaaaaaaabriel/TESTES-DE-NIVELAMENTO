@@ -25,3 +25,21 @@ pesquisei sobre como outra pessoa conseguirira rodar o meu codigo, sem precisar 
 
 
 
+PARA RODAR A INTERFACE, PASSO A PASSO:
+
+1° verificar os caminhos dos arquivos na função -> server.py
+   o meu esta assim: C:\Users\gabri\vaga_emprego\backend\etapa_3\downloads\Relatorio_cadop.csv
+
+2° entrar na pasta correta, o fim dela sera -> cd backend/etapa_4
+
+3° rodar o comando -> uvicorn server:app --reload
+
+4° testar no postman, a url é essa (ja esta com o endpoint definido) -> http://localhost:8000/buscar_operadoras?query=unimed
+
+5° caso o seu localhost esteja em uma porta diferente que a da minha, lembresse de mudar ela tambem no arquivo -> frontend/interface/src/api.js
+
+6° apos verificar todos os arquivos acima, é só rodar o comando dentro do arquivo correto, que é -> cd frontend/interface
+
+COMANDO PARA RODAR A INTERFACE -> npm run dev
+
+
